@@ -1,0 +1,86 @@
+.container  {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 40rem;
+    width: 98%;
+    /* border: 2px solid red; */
+    font-family: 'Inter', sans-serif;
+}
+
+.csv{
+    width: 30rem;
+    height: 10rem;
+    /* margin-left: 5rem; */
+}
+
+.csv button {
+    color: whitesmoke;
+    background-color: blue;
+    border: none;
+    padding: 12px;
+    width: 12rem;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-left: 8rem;
+}
+
+.input input{
+    margin-bottom: 20px;
+    width: 20rem;
+    height: 1rem;
+    margin-left: 4rem;
+    padding: .6rem;
+    border-radius: 12px;
+    border-style: dashed;
+}
+.input  h3 {
+    margin-bottom: 2px;
+    height: 2rem;
+    margin-left: 3rem;
+    
+}
+
+.siderbar{
+    width: 50%;
+    height: 98%;
+}
+
+.download{
+    width: 100%;
+    height: 96%;
+    display: flex;
+
+}
+.filename{
+    height: 3rem;
+    width: 85%;
+
+}
+.filename p {
+    margin-left: 8px;
+}
+
+.icon{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.icon span{
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.full{
+    display: flex;
+    height: 4rem;
+    border-radius: 23px;
+margin-top: 10px;
+background-color: rgb(230, 240, 247);
+width: 100%;}
